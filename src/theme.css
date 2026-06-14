@@ -1,0 +1,7 @@
+:root{
+  --accent:{{ACCENT}}; --accent-light:{{ACCENT_LIGHT}}; --accent-dark:{{ACCENT_DARK}};
+  --ink:{{INK}}; --ink-soft:{{INK_SOFT}}; --cream:{{CREAM}}; --cream2:{{CREAM2}};
+  --line:{{LINE}}; --gold:{{GOLD}};
+  --ok:#3E7D5A; --attente:#C18A2E; --annule:#B5503C;
+  --font-display:{{FONT_DISPLAY}}; --font-body:{{FONT_BODY}};
+}
