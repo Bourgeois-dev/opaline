@@ -1,7 +1,7 @@
 :root{
-  --accent:{{ACCENT}}; --accent-light:{{ACCENT_LIGHT}}; --accent-dark:{{ACCENT_DARK}};
-  --ink:{{INK}}; --ink-soft:{{INK_SOFT}}; --cream:{{CREAM}}; --cream2:{{CREAM2}};
-  --line:{{LINE}}; --gold:{{GOLD}};
+  --accent:#3E7C82; --accent-light:#6BA3A8; --accent-dark:#2A5A5F;
+  --ink:#1A2238; --ink-soft:#4A5066; --cream:#F4F1EA; --cream2:#EAE4D7;
+  --line:#DDD5C4; --gold:#B89B5E;
   --ok:#3E7D5A; --attente:#C18A2E; --annule:#B5503C;
-  --font-display:{{FONT_DISPLAY}}; --font-body:{{FONT_BODY}};
+  --font-display:"Cormorant Garamond",Georgia,serif; --font-body:"Figtree",system-ui,sans-serif;
 }
