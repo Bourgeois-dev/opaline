@@ -1,4 +1,5 @@
-export const SOCIAL_SVG: Record<string, JSX.Element> = {
+import type { ReactNode } from "react";
+export const SOCIAL_SVG: Record<string, ReactNode> = {
   instagram: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="2" width="20" height="20" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" /></svg>,
   facebook: <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-1.7 0-3 1.3-3 3v2H9v3h2v6h3v-6h2.5l.5-3H14V9z" /></svg>,
   tiktok: <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 3c.3 2 1.6 3.7 4 4v3c-1.5 0-2.9-.5-4-1.3V15a6 6 0 1 1-6-6v3a3 3 0 1 0 3 3V3h3z" /></svg>,

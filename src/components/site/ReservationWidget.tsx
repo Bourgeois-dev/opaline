@@ -82,7 +82,7 @@ export default function ReservationWidget({ hours, open, onClose }: { hours: Ope
     if (!form.p || !form.n || !form.e || !form.t || !consent) return;
     await supabase.from("reservations").insert({
       customer_name: `${form.p} ${form.n}`, email: form.e, phone: form.t,
-      date, time: slot, covers, notes: form.notes, status: "attente",
+      date, time: slot || "", covers, notes: form.notes, status: "attente",
     });
     setDone(true);
   }

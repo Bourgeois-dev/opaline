@@ -71,9 +71,7 @@ export default function Site() {
       <Footer hours={hours} socials={socials} />
       <HorairesModal hours={hours} open={horairesOpen} onClose={() => setHorairesOpen(false)} />
       <ReservationWidget hours={hours} open={widgetOpen} onClose={() => setWidgetOpen(false)} />
+      <button className="btn btn-accent fab-reserv" onClick={() => setWidgetOpen(true)}>Réserver</button>
     </>
   );
 }
-
-// Note : le FAB "Réserver" est rendu directement dans Site.tsx au niveau du return
-// Il est intégré dans le composant ci-dessus via le bouton Navbar
